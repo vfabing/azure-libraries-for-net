@@ -233,10 +233,10 @@ namespace Microsoft.Azure.Management.AppService.Fluent.Models
         public override void Validate()
         {
             base.Validate();
-            if (Password == null)
-            {
-                throw new ValidationException(ValidationRules.CannotBeNull, "Password");
-            }
+            //if (Password == null)
+            //{
+            //    throw new ValidationException(ValidationRules.CannotBeNull, "Password");
+            //}
         }
     }
 }
